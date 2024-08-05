@@ -25,4 +25,5 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore MauiApp1/MauiApp1/MauiApp1.csproj
     - name: Build
-      run: dotnet build MauiApp1/MauiApp1/MauiApp1.csproj -c Release -f net8.0-android;net8.0-ios; --no-restore
+      run: dotnet build MauiApp1/MauiApp1/MauiApp1.csproj -c Release -f net8.0-android --no-restore
+      
